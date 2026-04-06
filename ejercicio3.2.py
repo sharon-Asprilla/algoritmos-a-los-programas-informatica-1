@@ -15,4 +15,4 @@ for caracter in oracion:
     else:
         resultado = resultado + caracter
 
-print("Oración modificada:", resultado)
+print("resultado de la oracion:", resultado)

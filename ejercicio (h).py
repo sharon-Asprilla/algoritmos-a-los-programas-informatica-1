@@ -2,8 +2,10 @@ print("sirve para determinar la cantidad de los digitos de un numero ")
 print()
 n = input("ingrese un numero: ")
 
+contador = 0
 
-for d in n:
-    print(f"la cantidad de digitos de {n}")
+for digitos in n:
+    contador += 1
 
-#falta un contador 
+print(f"La cantidad de dígitos de {n} es {contador}")
+

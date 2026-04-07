@@ -2,16 +2,20 @@ print("Programa para verificar seguridad de una contraseña")
 
 contraseña = input("Ingrese la contraseña: ")
 
+contador = 0
 # Verificar longitud
 for c in contraseña:
-    if (c >= 8 and c <= 20):
-        print("ok")
-    else:
-        print(" La contraseña no cumple con minimo 8 y 20 caracteres")
+    contador += 1
+
+if contador >= 8 and contador <= 20:
+    print("ok")
+else:
+    print("La contraseña no cumple con mínimo 8 y máximo 20 caracteres")
 
 #  Verificar si tiene letras
 tiene_letra = False
 for c in contraseña:
+   
     if (c >= "A" and c <= "Z") or (c >= "a" and c <= "z"):
         tiene_letra = True
         
@@ -26,7 +30,6 @@ for c in contraseña:
     if c >= "0" and c <= "9":
         tiene_numero = True
         
-
 if tiene_numero:
     print(" ok")
 else:

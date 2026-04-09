@@ -1,4 +1,4 @@
-print("Programa (a) para calcular la hipotenusa de un triángulo rectángulo")
+print("Programa (a) para calcular la hipotenusa ")
 
 # Pedir los catetos
 cateto1 = int(input("Ingrese el primer cateto: "))

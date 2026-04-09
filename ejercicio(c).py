@@ -1,4 +1,4 @@
-print("algoritmo para  calcular las millas/hora")
+print("programa (c) para  calcular las millas/hora")
 
 millas= int(input("ingrese la velocidad en millas:  "))
 

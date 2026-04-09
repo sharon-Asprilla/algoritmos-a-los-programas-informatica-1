@@ -1,4 +1,4 @@
-print("Este programa imprime asteriscos alineados a la derecha")
+print("Este programa (L) imprime asteriscos alineados a la derecha")
 
 n = int(input("Ingrese cuántas lineas quiere imprimir: "))
 

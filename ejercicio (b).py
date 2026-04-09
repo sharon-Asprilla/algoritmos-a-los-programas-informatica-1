@@ -1,4 +1,5 @@
-print("algoritmo (b) para calcular las cordenadas")
+print("programa (b) para calcular las cordenadas")
+print()
 x1 = int(input("ingrese el x1: "))
 y1 = int(input("ingrese el y1: "))
 x2 = int(input("ingrese el x2: "))

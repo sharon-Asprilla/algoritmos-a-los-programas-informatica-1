@@ -1,4 +1,4 @@
-print("este programa sirve para calcular los divisores de un numero ")
+print("este programa (f) sirve para calcular los divisores de un numero ")
 n = int(input("ingrese un numero: "))
 
 x = 1

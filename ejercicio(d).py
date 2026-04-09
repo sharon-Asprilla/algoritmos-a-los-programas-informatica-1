@@ -1,4 +1,4 @@
-print("este algoritmo sirve para calcular el salario semanal")
+print("este programa (d) sirve para calcular el salario semanal de la sucursal")
 print()
 sucursal= input("ingrese la surcursal en la que trabaja(A y B) en mayuscula: ")
 

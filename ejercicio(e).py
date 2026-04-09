@@ -1,4 +1,4 @@
-print("Algoritmo de menú de opciones")
+print("programa (e) de menú de opciones")
 print()
 
 a = int(input("Ingrese el valor de a: "))

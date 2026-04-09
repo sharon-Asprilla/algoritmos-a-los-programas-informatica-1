@@ -1,6 +1,7 @@
 print("Programa para verificar seguridad de una contraseña")
 
 contraseña = input("Ingrese la contraseña: ")
+print()
 
 contador = 0
 # Verificar longitud
@@ -48,4 +49,13 @@ if tiene_especial:
 else:
     print(" No contiene caracteres especiales")
 
-#falta verificar si la palabra es palindroma 
+# ver si la palabra es palindroma 
+invertida= ""
+for c in contraseña:
+    invertida = c + invertida
+if contraseña == invertida:
+    print("es palindroma")
+else:
+    print("ok")
+    
+

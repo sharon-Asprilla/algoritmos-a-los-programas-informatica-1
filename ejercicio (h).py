@@ -1,4 +1,4 @@
-print("sirve para determinar la cantidad de los digitos de un numero ")
+print("programa que (h) sirve para determinar la cantidad de los digitos de un numero ")
 print()
 n = input("ingrese un numero: ")
 

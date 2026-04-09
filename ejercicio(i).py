@@ -17,3 +17,4 @@ while contador < n:
     contador += 1
     print(a)
  
+#aqui me falta repasar
